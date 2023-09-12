@@ -3,6 +3,7 @@
 import { FC } from 'react';
 import { useForm } from 'react-hook-form';
 import { sendEmail } from '@/utils/send-email';
+import Image from 'next/image';
 
 export type FormData = {
   name: string;
@@ -18,6 +19,28 @@ const ContactForm: FC = () => {
   }
 
   return (
+    <div className="md:container md:mx-auto">
+      <div
+                className="wow fadeInUp mx-auto text-center items-center"
+                data-wow-delay=".2s"
+              >
+                {/* <h1 className="mb-5 text-6xl font-semibold text-transparent md:text-6xl gradient leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:leading-tight">
+                The Spiral Staircase
+                </h1> */}
+                 {/* <h1 className="mb-14 text-6xl font-semibold text-transparent md:text-6xl gradient leading-tight text-white dark:text-white sm:text-4xl sm:leading-tight dark:md:text-6xl md:leading-tight">
+                The Spiral Staircase
+                </h1> */}
+                 <Image
+                  src="/images/new/logo/logo-words.png"
+                  alt="about-image"
+                  height={600}
+                  width={600}
+                  className="mx-auto max-w-full lg:mr-6"
+                />
+               
+               
+                
+              </div>
     <form onSubmit={handleSubmit(onSubmit)}>
       <div className='mb-5'>
         <label
@@ -62,11 +85,12 @@ const ContactForm: FC = () => {
         ></textarea>
       </div>
       <div>
-        <button className='hover:shadow-form rounded-md bg-purple-500 py-3 px-8 text-base font-semibold text-white outline-none'>
-          Submit
+        <button className='hover:shadow-form rounded-xl bg-cream py-3 px-8 text-base font-semibold text-royalpurple outline-none'>
+          Get In Touch
         </button>
       </div>
     </form>
+    </div>
   );
 };
 
