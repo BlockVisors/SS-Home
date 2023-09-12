@@ -12,6 +12,7 @@ const Footer = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
+              <div className="flex justify-between">
                 <Link href="/" className="mb-8 inline-block">
                   {/* <Image
                     src="/images/logo/ssTrans.png"
@@ -21,12 +22,23 @@ const Footer = () => {
                     height={30}
                   /> */}
                   {/* p */}
+                   <Image
+                  src="/images/new/logo/S/logo1.png"
+                  alt="logo"
+                  width={60}
+                  height={60}
+                  // className="w-full dark:block"
+                  //  className="w-full"
+                  priority
+                /> 
                   <h1 className="text-xl text-bold">
-                  SPIRAL STAIRCASE
+                   THE SPIRAL STAIRCASE
                   </h1>
+                 
                 </Link>
+                 </div>
                 <p className="mb-9 text-base font-medium leading-relaxed text-white/90">
-                  A Luxury Community for Moms & Expecting Mothers.
+                  A Luxury Community for Moms to Relax & Unwind.
                 </p>
                 <div className="flex items-center">
                   <a
@@ -116,7 +128,7 @@ const Footer = () => {
                       className="mb-4 inline-block text-base font-medium text-white hover:text-primary"
                     >
                       {" "}
-                      Blog{" "}
+                      Stories{" "}
                     </a>
                   </li>
                   <li>
@@ -208,7 +220,7 @@ const Footer = () => {
                       className="mb-4 inline-block text-base font-medium text-white hover:text-primary"
                     >
                       {" "}
-                      About{" "}
+                      Contact{" "}
                     </a>
                   </li>
                 </ul>

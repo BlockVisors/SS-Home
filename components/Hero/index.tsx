@@ -34,7 +34,8 @@ const Hero = () => {
                   className="mx-auto max-w-full lg:mr-6"
                 />
                 <h1 className="mb-20 text-3xl font-light leading-tight text-white dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-Ascend & Unwind                </h1>
+                Ascend & Unwind                
+                </h1>
                 {/* <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
                 The Spiral Staircase offers modern mothers an unparalleled experience of relaxation, luxury, and child-friendly amenities, creating a unique haven where they can rejuvenate while their children are well-cared for in an elegant and enchanting environment.
 

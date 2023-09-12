@@ -83,8 +83,8 @@ const Header = () => {
                 <Image
                   src="/images/new/logo/S/logo1.png"
                   alt="logo"
-                  width={80}
-                  height={66}
+                  width={100}
+                  height={80}
                   // className="w-full dark:block"
                   className="w-full"
                   priority
