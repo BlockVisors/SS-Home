@@ -19,7 +19,7 @@ const ContactForm: FC = () => {
   }
 
   return (
-    <div className="md:container md:mx-auto">
+    <div className="width=80%">
       <div
                 className="wow fadeInUp mx-auto text-center items-center"
                 data-wow-delay=".2s"
