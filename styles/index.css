@@ -16,12 +16,12 @@
   body {
     /* font-family: "Inter", sans-serif; */
     /* font-family: "Nunito", sans-serif; */
-    font-family: "SWILYBRIGHT", sans-serif;
+    font-family: "swily", sans-serif;
 
   }
 }
 @font-face {
-  font-family: "SWILYBRIGHT";
+  font-family: "swily";
   src: url("../public/fonts/SwilyBright-Regular.ttf");
 }
 

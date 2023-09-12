@@ -58,7 +58,7 @@ const Header = () => {
       >
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
-            <div className="w-60 max-w-full px-4 xl:mr-12">
+            <div className="max-w-full px-4 xl:mr-12">
               <Link
                 href="/"
                 className={`header-logo block w-full ${
@@ -80,20 +80,24 @@ const Header = () => {
                 height={18}
                 priority
               /> */}
-                 {/* <Image
-                  src="/images/logo/ssTrans.png"
-                  alt="logo"
-                  width={70}
-                  height={15}
-                  className="w-full dark:hidden"
-                /> */}
                 <Image
                   src="/images/new/logo/S/logo1.png"
                   alt="logo"
-                  width={70}
-                  height={15}
-                  className="hidden w-full dark:block"
+                  width={80}
+                  height={66}
+                  // className="w-full dark:block"
+                  className="w-full"
+                  priority
                 /> 
+                 {/* <Image
+                  src="/images/new/logo/logo-words.png"
+                  alt="logo"
+                  width={160}
+                  height={50}
+                  priority
+                  // className="w-full dark:hidden"
+                /> */}
+              
                  {/* <h1 className="text-l">
                 SPIRAL STAIRCASE
                 </h1>  */}
@@ -137,7 +141,7 @@ const Header = () => {
                         {menuItem.path ? (
                           <Link
                             href={menuItem.path}
-                            className={`flex py-2 text-base text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0`}
+                            className={`flex py-2 text-lg text-white group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0`}
                           >
                             {menuItem.title}
                           </Link>
