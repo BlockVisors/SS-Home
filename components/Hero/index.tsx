@@ -44,7 +44,7 @@ Ascend & Unwind                </h1>
                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0 mt-18">
                   
                   <Link
-                    href="https://localhost:3001"
+                    href="/contact-form"
                     className="rounded-xl bg-cream py-4 px-8 text-base font-swily font-semibold text-black duration-300 ease-in-out hover:bg-black/30 dark:bg-originaldark dark:text-white dark:hover:bg-white/30"
                   >
                 Become A Member

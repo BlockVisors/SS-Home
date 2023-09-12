@@ -37,18 +37,18 @@ const menuData: Menu[] = [
   //   path: "http://google.com",
   //   newTab: false,
   // },
-  {
-    id: 3,
-    title: "Contact",
-    path: "/contact",
-    newTab: false,
-  },
-  {
-    id: 4,
-    title: "FAQ",
-    path: "/faq",
-    newTab: false,
-  },
+  // {
+  //   id: 3,
+  //   title: "Contact",
+  //   path: "/contact",
+  //   newTab: false,
+  // },
+  // {
+  //   id: 4,
+  //   title: "FAQ",
+  //   path: "/faq",
+  //   newTab: false,
+  // },
   // {
   //   id: 7,
   //   title: "Pages",
