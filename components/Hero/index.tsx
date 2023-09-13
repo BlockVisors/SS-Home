@@ -46,7 +46,7 @@ const Hero = () => {
                   
                   <Link
                     href="/contact-form"
-                    className="rounded-xl bg-cream py-4 px-8 text-base font-swily text-center font-semibold text-black duration-300 ease-in-out hover:bg-black/30 dark:bg-cream dark:text-black/80 dark:hover:bg-white/30"
+                    className="rounded-3xl bg-cream py-4 px-8 text-base font-swily text-center font-semibold text-black duration-300 ease-in-out hover:bg-black/30 dark:bg-cream dark:text-black/80 dark:hover:bg-white/30"
                   >
                 Become A Member
                                   </Link>
