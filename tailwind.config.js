@@ -12,6 +12,10 @@ module.exports = {
       center: true,
       padding: "1rem",
     },
+    fontFamily: {
+      swily: ["swily", "sans-serif"],
+      swilyItalic: ["swily-italic", "sans-serif"],
+    },
     colors: {
       current: "currentColor",
       transparent: "transparent",

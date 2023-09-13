@@ -33,7 +33,7 @@ const Hero = () => {
                   width={600}
                   className="mx-auto max-w-full lg:mr-6"
                 />
-                <h1 className="mb-20 text-3xl font-light leading-tight text-white dark:text-white sm:text-2xl sm:leading-tight md:text-5xl md:leading-tight font-itallic">
+                <h1 className="mb-20 text-3xl font-light leading-tight text-white dark:text-white sm:text-2xl sm:leading-tight md:text-5xl md:leading-tight font-swily">
                 Ascend & Unwind                
                 </h1>
                 {/* <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">

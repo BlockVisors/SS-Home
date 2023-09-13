@@ -52,7 +52,7 @@ const ContactForm: FC = () => {
         <input
           type='text'
           placeholder='Full Name'
-          className='w-full rounded-md border border-gray-300 bg-white py-3 px-6 text-base font-medium text-gray-700 outline-none focus:border-purple-500 focus:shadow-md'
+          className='w-full rounded-md border border-gray-300 bg-white py-3 px-6 text-base font-medium text-gray-700 outline-none focus:border-purple-500 focus:shadow-md dark:text-black'
           {...register('name', { required: true })}
         />
       </div>
@@ -66,7 +66,7 @@ const ContactForm: FC = () => {
         <input
           type='email'
           placeholder='example@domain.com'
-          className='w-full rounded-md border border-gray-300 bg-white py-3 px-6 text-base font-medium text-gray-700 outline-none focus:border-purple-500 focus:shadow-md'
+          className='w-full rounded-md border border-gray-300 bg-white py-3 px-6 text-base font-medium text-gray-700 outline-none focus:border-purple-500 focus:shadow-md dark:text-black'
           {...register('email', { required: true })}
         />
       </div>
@@ -80,7 +80,7 @@ const ContactForm: FC = () => {
         <textarea
           rows={4}
           placeholder='Type your message'
-          className='w-full resize-none rounded-md border border-gray-300 bg-white py-3 px-6 text-base font-medium text-gray-700 outline-none focus:border-purple-500 focus:shadow-md'
+          className='w-full resize-none rounded-md border border-gray-300 bg-white py-3 px-6 text-base font-medium text-gray-700 outline-none focus:border-purple-500 focus:shadow-md dark:text-black'
           {...register('message', { required: true })}
         ></textarea>
       </div>

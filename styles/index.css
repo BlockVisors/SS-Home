@@ -25,6 +25,11 @@
   src: url("../public/fonts/SwilyBright-Regular.ttf");
 }
 
+@font-face {
+  font-family: "swilyItalic";
+  src: url("../public/fonts/SwilyBright-Italic.ttf");
+}
+
 @layer components {
   input[type="checkbox"]:checked ~ label span svg {
     @apply inline-flex;
